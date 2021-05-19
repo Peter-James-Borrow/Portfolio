@@ -6,25 +6,64 @@
 
 .header {
     display: grid;
-    grid-template-columns: 400px auto;
-    border: red 1px solid;
+    grid-template-columns:[line1]1fr[line2]1fr[line3] 1fr[line4] 1fr[line5] 1fr[line6] 1fr;
+    /* border: red 1px solid; */
+    
+}
+
+
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
     padding: 8px;
+    
+    
 }
 
-
-.nav-items {
-    display: flex;
-    justify-content:space-between
+.item2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding: 8px
+    
 }
-   
+
+.item3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    padding: 8px;
+    
+}
+
+.item4 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    padding: 8px;
+    
+}
+
+.item5 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    padding: 8px;
+    
+}
 
 li {
     list-style: none;
 }
 
-.banner {
-    background-image: url();
+#banner-hero{
+    background-image: url("assets/pexels-negative-space-34580.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height:100vh;
 }
+   
+
+
+
     
     
 
