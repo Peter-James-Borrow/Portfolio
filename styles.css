@@ -13,7 +13,7 @@
 
 
 
-.item1 {
+.name {
     grid-column-start: 1;
     grid-column-end: 2;
     padding: 8px;
@@ -21,28 +21,28 @@
     
 }
 
-.item2 {
+.about {
     grid-column-start: 3;
     grid-column-end: 4;
     padding: 8px
     
 }
 
-.item3 {
+.projects {
     grid-column-start: 4;
     grid-column-end: 5;
     padding: 8px;
     
 }
 
-.item4 {
+.education {
     grid-column-start: 5;
     grid-column-end: 6;
     padding: 8px;
     
 }
 
-.item5 {
+.contacts{
     grid-column-start: 6;
     grid-column-end: 7;
     padding: 8px;
