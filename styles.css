@@ -53,6 +53,12 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
 #banner-hero{
     background-image: url("assets/pexels-negative-space-34580.jpg");
     background-repeat: no-repeat;
