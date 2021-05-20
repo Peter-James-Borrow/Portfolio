@@ -7,7 +7,10 @@
 .header {
     display: grid;
     grid-template-columns:[line1]1fr[line2]1fr[line3] 1fr[line4] 1fr[line5] 1fr[line6] 1fr;
-    /* border: red 1px solid; */
+    width: 100%;
+    position:fixed;
+    background-color: white;
+    
     
 }
 
@@ -63,7 +66,9 @@ a {
 
 a :hover {
     background-color: black;
+    border-radius: 10px;
     color: white;
+    opacity:0.1;
 }
 
 #banner-hero{
@@ -73,6 +78,8 @@ a :hover {
     width: 100vw;
     height:100vh;
 }
+
+
    
 
 
