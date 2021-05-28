@@ -14,13 +14,13 @@
     position:fixed;
     
 }
-    
+
 .name {
     grid-column-start: 1;
     grid-column-end: 2;
     padding: 8px;
 }
-    
+
 .about {
     grid-column-start: 4;
     grid-column-end: 5;
@@ -58,13 +58,14 @@ a :hover {
     color: white;
     opacity:0.1;
 }
-    
+
+
 #banner-hero {
     background-image: url("assets/pexels-negative-space-34580.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
-    height: 100vh;
+    height:100vh;
 }
     
 #about-information {
