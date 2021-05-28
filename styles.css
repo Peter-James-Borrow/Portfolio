@@ -13,9 +13,8 @@
     width: 100%;
     position:fixed;
     
-    
 }
-
+    
 .name {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -23,20 +22,11 @@
 }
     
 .about {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    padding: 8px;
-}
-
-
-
-.projects {
     grid-column-start: 4;
     grid-column-end: 5;
     padding: 8px;
 }
-
-.education {
+.projects {
     grid-column-start: 5;
     grid-column-end: 6;
     padding: 8px;
@@ -56,7 +46,7 @@ li {
 
 a {
     text-decoration: none;
-    color: lightgray;
+    color: rgb(114, 110, 110);
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
@@ -72,7 +62,7 @@ a :hover {
 #banner-hero {
     background-image: url("assets/pexels-negative-space-34580.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     width: 100%;
     height: 100vh;
 }
@@ -106,20 +96,34 @@ a :hover {
 .projects {
     width: 100px;
     padding-bottom: 20px;
+}
     
-    
-    
+.link :hover {
+    background-color: lightgray;
+    opacity: 0.5;
 }
 
-#Education-information {
-    background-color: lightslategray;
-    width: 100%;
-}
     
 #contact-information {
     background-color: lightslategray;
     width: 100%;
 }
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+    
+    
 
 
 
