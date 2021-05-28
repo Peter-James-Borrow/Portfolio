@@ -11,16 +11,22 @@
     <form class="contact" action="" method="POST">
         <div class="container-form">
             <h2>Contact Me</h2>
-            <label class="label" for="first">First Name:</label>
-            <input class="inputs" type="text" name="name" id="name" placeholder="John">
-            <label class="label" for="last">Surname:</label>
-            <input class="inputs" type="text" name="last" id="last" placeholder="Roberts">
-            <label class="label" for="email">Email:</label>
-            <input class="inputs" type="email" name="email" id="email" placeholder="Example.com">
-            <br>
-            <br>
-            <p>Please write you message below</p>
-            <textarea id="message" name="message" rows="5" cols="100"></textarea>
+            <div class="first-name">
+                <label class="label" for="first">First Name:</label>
+                <input class="inputs" type="text" name="name" id="name" placeholder="John">
+            </div>
+            <div class="last-name">
+                <label class="label" for="last">Surname:</label>
+                <input class="inputs" type="text" name="last" id="last" placeholder="Roberts">
+            </div>
+            <div class="email">
+                <label class="label" for="email">Email:</label>
+                <input class="inputs" type="email" name="email" id="email" placeholder="Example.com">
+            </div>
+            <div>
+                <p>Message</p>
+                <textarea id="message" name="message" rows="5" cols="100"></textarea>
+            </div>
             <input class="submit" type="submit" value="Contact Me">
         </div>
     </form>
