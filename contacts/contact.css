@@ -10,11 +10,6 @@ html {
     margin: 15rem;
 }
     
-
-
-
-
-
 body {
     background-color: rgba(211, 211, 211, 0.5);
     border-radius: 20px;
@@ -26,15 +21,22 @@ body {
     height: 100vh;
 }
 
-
 .container-form {
     align-items: center;
     background-color: white;
-    border: 2px solid rgb(32, 155, 196);
+    border: 3px solid rgb(32, 155, 196);
     border-radius: 10px;
+    height: 80vh;
     justify-content: center;
-    padding: 1rem;
-    margin: 1rem
+    margin: 1rem;
+    padding:1rem;
+   
+}
+
+.contact-icon {
+    float:right;
+    padding:8px;
+    width: 80px;
 }
 
 h2 {
@@ -47,55 +49,39 @@ p {
 
 }
 
-.
-
-
-
-.label-first {
-    color:rgb(32, 155, 196);
-    font-size: 18px;
-    margin: 10px;
+.first-name, .last-name, .email  {
+   
     padding: 10px;
 }
-
-.label-last {
-    color:rgb(32, 155, 196);
-    font-size: 18px;
-    margin: 10px;
-    padding: 10px;
-    
-}
-
-.label-email {
-    color:rgb(32, 155, 196);
-    font-size: 18px;
-    margin: 10px;
-    padding: 10px;
-}
-    
 
 #message {
-    border: 2px solid rgb(32, 155, 196);
+    border: 3px solid rgb(32, 155, 196);
+    border-radius: 8px;
 }
     
-
 .inputs {
-    border: 1px solid rgb(32, 155, 196);
-    width: fit-content;
-}
+    border: 2px solid rgb(32, 155, 196);
+    border-radius: 10px;
+    width: 50%;
+    height: 22px;
     
+}
+
+::placeholder {
+    color:rgb(32, 155, 196);
+    padding: 5px;
+    
+}
 
 .submit {
-    border: 1px solid rgb(32, 155, 196);
     color: rgb(32, 155, 196);
     background-color: white;
+    border: 2px solid rgb(32, 155, 196);
+    margin: 5px;
+    padding: 10px;
+    float: right;
 }
 
-.contact-icon {
-    float:right;
-    padding:8px;
-    width: 80px
-}
 
     
 
