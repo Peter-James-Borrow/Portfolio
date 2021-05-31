@@ -30,7 +30,7 @@ body {
     justify-content: center;
     margin: 1rem;
     padding:1rem;
-   
+    
 }
 
 .contact-icon {
@@ -42,6 +42,7 @@ body {
 h2 {
     text-align: center;
     color:rgb(32, 155, 196);
+    font-family:'Raleway', sans-serif;
 }
 
 p {
@@ -62,24 +63,35 @@ p {
 .inputs {
     border: 2px solid rgb(32, 155, 196);
     border-radius: 10px;
-    width: 50%;
+    width: 75%;
     height: 22px;
     
 }
 
 ::placeholder {
     color:rgb(32, 155, 196);
-    padding: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-family:'Raleway', sans-serif;
     
 }
 
 .submit {
     color: rgb(32, 155, 196);
-    background-color: white;
+    background-color:white;
     border: 2px solid rgb(32, 155, 196);
+    border-radius: 10px;
+    font-family:'Raleway', sans-serif;
+    font-size: 16px;
+    float: right;
     margin: 5px;
     padding: 10px;
-    float: right;
+    width:fit-content;
+}
+
+.submit:hover {
+    background-color: rgb(32, 155, 196);
+    color: white;
 }
 
 
